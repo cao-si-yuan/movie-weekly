@@ -1,7 +1,6 @@
 <view class="container">
     <text>本周推荐</text>
-    <image src="/images/timg.jpeg"></image>
-    <text>教父</text>
-    <text>点评</text>
-    <text>点评: 最精彩的剧本, 最真实的黑帮电影</text>
+    <image src="{{thisWeekMovie.imagePath}}"></image>
+    <text>{{thisWeekMovie.name}}</text>
+    <text>点评: {{thisWeekMovie.comment}}</text>
 </view>
