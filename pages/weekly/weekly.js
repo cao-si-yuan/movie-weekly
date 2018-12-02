@@ -21,35 +21,39 @@ Page({
             }
         ],    
         count: 123,
-        score: 60,
-        currentIndex: 0
+        score: 60
     },
 
     //生命周期 onLoad -> onShow -> onReady
     //onload为了在页面被渲染之前初始化currentIndex
-    onLoad: function (options) {
+    onLoad: function(options) {
         this.setData({
             currentIndex: this.data.weeklyMovieList.length - 1
         })
     },
 
+    f0: function(event) {
+        this.setData({
+            currentIndex: this.data.weeklyMovieList.length - 1
+        })
+    }
     //onShow只要显示就调用一次
-    onShow: function () {
+    // onShow: function() {
 
-    },
+    // },
 
     //onReady初始完成，开始交互调用一次
-    onReady: function () {
+    // onReady: function() {
 
-    },
+    // },
 
     //onHide只要隐藏就调用一次
-    onHide: function () {
+    // onHide: function() {
 
-    },
+    // },
 
     //onUnload页面被关闭就调用一次
-    onUnload: function () {
+    // onUnload: function() {
 
-    }
+    // },
 })
