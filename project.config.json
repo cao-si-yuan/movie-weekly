@@ -13,7 +13,7 @@
 	},
 	"compileType": "miniprogram",
 	"libVersion": "2.4.1",
-	"appid": "wx5559c40b96b457fa",
+	"appid": "your appid",
 	"projectname": "movie-weekly",
 	"debugOptions": {
 		"hidedInDevtools": []
