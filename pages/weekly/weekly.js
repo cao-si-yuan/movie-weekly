@@ -24,7 +24,8 @@ Page({
             }
         ],    
         count: 123,
-        score: 60
+        score: 60,
+        condition: false
     },
 
     //生命周期 onLoad -> onShow -> onReady
@@ -53,7 +54,7 @@ Page({
         return {
             title: "每周推荐"
         }
-    }
+    },
     //onShow只要显示就调用一次
     // onShow: function() {
 
@@ -73,4 +74,9 @@ Page({
     // onUnload: function() {
 
     // },
+    showTest: function() {
+        this.setData({
+            condition: !this.data.condition
+        })
+    }
 })

@@ -19,7 +19,10 @@
             <text catchtap='f0' wx:if='{{index < (weeklyMovieList.length - 1)}}'               class="return-button">返回本周</text>
         </swiper-item> 
     </swiper>
-
+    
+    <text bindtap='showTest'>showText\n</text>
+     
+    <text hidden='{{condition}}'>heheh</text>
     <!-- <text>{{count}}</text>
     <button bindtap='f0'>+1</button>     -->
     <!-- <image src="{{thisWeekMovie.imagePath}}"></image>
